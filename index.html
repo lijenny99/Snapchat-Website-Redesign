@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+
+    <title>Snapchat Redesign</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <div class="bg">
+      <div class="heading">
+        The fastest way to<br>
+        share a moment
+      </div>
+      <form>
+            <div class="container centered">
+              <div class="form-group">
+                <label for="exampleInputEmail1" id="email">EMAIL</label>
+                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="JOHNDOE@EXAMPLE.COM">
+                  <div class="buttonAlign">
+                  <button type="submit" class="btn btn-primary">SIGN UP</button>
+              </div>
+                </div>
+  </div>
+</form>
+<div class="more text-center"><a href="#section2">FIND OUT MORE</a></div>
+</div>
+
+
+<section class="main" id="section2">
+  <h3>Features</h3>
+  <h5 style="padding-bottom: 40px">Here's a quick preview of what to expect.</h5>
+
+  <div class="card-deck text-center">
+  <div class="card">
+    <img class="card-img-top mx-auto d-block" src="woman.png" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Express Yourself</h4>
+      <p class="card-text">Snapchat is a camera made for <br>communicating in the moment!</p>
+
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top mx-auto d-block" src="chat.png" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Live in the Moment</h4>
+      <p class="card-text">Chat with stickers, Bitmojis, and more. <br>Save what matters, the rest disappears.</p>
+
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top mx-auto d-block" src="earth.png" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Learn About the World</h4>
+      <p class="card-text">Keep up with Stories from<br> friends, publishers, and more.</p>
+</div>
+    </div>
+  </div>
+  </section>
+
+<section id="section3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+  <h2>Install the app <br> to get started</h2>
+  <h6>Available now for iPhone and Android</h6>
+  <div style="width:100%;text-align: right">
+  <img class="download" src="apple.png">
+  <img class="download" src="google.png">
+</div>
+</div>
+<div class="col-md-6">
+  <div class="phone-container" style="text-align: center">
+  <img class="phone" src="pls.png">
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+  </body>
+</html>

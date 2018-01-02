@@ -1,0 +1,204 @@
+
+body, html {
+	font-family: 'Lato', sans-serif;
+	color:#999;
+	font-size: 20px;
+	height: 100%;
+	margin: 0;
+}
+
+
+.bg {
+  background-image: url("bgd.png");
+  height: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+}
+
+.heading {
+ padding-top: 25vh;
+  padding-bottom: 42px;
+  width: 100%;
+	color:#626262;
+	font-size: 72px;
+	font-weight: 900;
+  line-height: 65px;
+  text-align: center;
+}
+
+
+#exampleInputEmail1 {
+  font-size: 14px;
+  letter-spacing: 2.72px;
+  color: #afafaf;
+  font-weight:400;
+  padding-right: 10em;
+  padding-top: 25px;
+  box-shadow: 6px 3px 50px 0 rgba(106, 106, 106, 50);
+}
+
+#email {
+  font-size: 10px;
+  letter-spacing: 2.78px;
+  color: #626262;
+  font-weight:bold;
+  position: absolute;
+  top: 12px;
+  left: 20px;
+
+}
+
+.btn {
+  background-color: #F8E71C;
+  border-color: #F8E71C;
+  font-size: 14px;
+  color: #626262;
+  letter-spacing: 3.02px;
+  font-weight:bold;
+
+}
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: #F8E71C;
+    border-color: #F8E71C;
+}
+
+ .centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  position: relative;
+  height: 65px;
+  width: 65%;
+}
+
+.buttonAlign {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+h3 {
+  color: #626262;
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 8vh;
+}
+
+h5 {
+  color: #4a4a4a;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #4A4A4A;
+  font-weight: 900;
+}
+
+.card-text {
+  font-size: 18px;
+  color: #4A4A4A;
+  font-weight: 300;
+  line-height: 26px;
+  padding-bottom: 55px;
+}
+
+.card-img-top {
+  height: 120px;
+  width: 120px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.card-deck {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+section {
+  min-height: 100%;
+  width: 100%;
+
+
+}
+#section2 {
+  background-color: #EFEFEF;
+}
+
+div.more a {
+	position: absolute;
+	left: 45%;
+	bottom: 30px;
+	font-size: 14px;
+	letter-spacing: 4.03px;
+	color: #000000;
+}
+
+@media only screen and (max-width: 789px) {
+	div.more a {
+		left: 33%;
+	}
+
+}
+
+a:hover, a:visited, a:active {
+	text-decoration: none;
+	color: #000000;
+	background-color: transparent;
+}
+
+.card {
+	box-shadow: 6px 3px 50px 0 rgba(187, 187, 187, 50);
+	border-radius: 0;
+}
+
+#section3 {
+	background-color: #F8E71C;
+	position: relative;
+}
+
+h2 {
+	font-size: 72px;
+	font-weight: 900;
+	line-height: 75px;
+	color: #FFFFFF;
+	text-align: right;
+	padding-top: 25vh;
+}
+
+h6 {
+	color: #8D830E;
+	font-size: 20px;
+	text-align: right;
+	font-weight: 900;
+
+}
+
+.phone {
+	height: 100vh;
+	width: auto;
+
+}
+
+.download {
+	display: inline;
+	width: 170px;
+	height: 50px;
+}
+
+
+.card-deck {
+	padding-bottom: 50px;
+}
